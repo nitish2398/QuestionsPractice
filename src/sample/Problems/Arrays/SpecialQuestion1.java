@@ -1,4 +1,4 @@
-package sample;
+package sample.Problems.Arrays;
 
 import java.util.*;
 import java.lang.*;
