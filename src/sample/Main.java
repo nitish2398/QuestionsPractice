@@ -277,30 +277,61 @@ class Sum1 {
 }
 
 class GFG1 {
-    public static void main (String[] args)
-    {
-        Scanner scan = new Scanner(System.in);
-        int t = scan.nextInt();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        System.out.println(palindromicNumbers(n));
+    }
 
-        while(t != 0) {
-            int n = scan.nextInt();
-            scan.nextLine();
-            String [] s = scan.nextLine().split(" ");
-
-            System.out.print("1 ");
-
-            int prev = 1;
-            for(int i = 1; i <s.length; i++) {
-                int current = 1;
-                if(Integer.valueOf(s[i-1]) <= Integer.valueOf(s[i])) {
-                    current += prev;
-                }
-                System.out.print(current + " ");
-                prev = current;
-            }
-
-            System.out.println();
-            t--;
+    static int palindromicNumbers(int n) {
+        if (n <= 10) {
+            return n;
         }
+
+        int count = 9;
+        int value = 10;
+
+        while (value <= n) {
+            if (value < 1000) {
+                value += 10;
+            } else if (value < 10000) {
+                value += 100;
+            } else if (value < 100000) {
+                value += 1000;
+            } else if (value < 1000000) {
+                value += 10000;
+            }
+            count++;
+        }
+
+        if(n <= closestPalindrome(n)) {
+            count--;
+        }
+
+        return count;
+    }
+
+    static int closestPalindrome(int n) {
+        int [] arr = new int[100000];
+        int k = 0;
+        while (n != 0) {
+            int x = n % 10;
+            arr[k++] = x;
+            n = n / 10;
+        }
+
+        for(int i = k-1; i >= k/2; i--) {
+            if(arr[i] != arr[k-1-i]) {
+                arr[k-1-i] = arr[i];
+            }
+        }
+
+        int num = 0;
+        int pow = 1;
+        for(int i = 0; i < k; i++) {
+            num += arr[i]*pow;
+            pow = pow * 10;
+        }
+        return num;
     }
 }
