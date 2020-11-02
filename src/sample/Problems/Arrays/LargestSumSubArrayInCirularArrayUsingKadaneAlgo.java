@@ -48,17 +48,14 @@ class Kadane {
     }
 
     private static int kadaneToFindMax(int arr[]) {
-        int maxSum = 0;
-        int maxTillNow = 0;
+        int maxSum = arr[0];
+        int maxTillNow = arr[0];
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
 
-            maxTillNow += arr[i];
+            maxTillNow = Math.max(maxTillNow + arr[i], arr[i]);
             maxSum = Math.max(maxSum, maxTillNow);
 
-            if (maxTillNow < 0) {
-                maxTillNow = 0;
-            }
         }
 
         return maxSum;
@@ -70,12 +67,9 @@ class Kadane {
 
         for (int i = 1; i < arr.length; i++) {
 
-            minTillNow += arr[i];
+            minTillNow = Math.min(minTillNow + arr[i], arr[i]);
             minSum = Math.min(minSum, minTillNow);
 
-            if (minTillNow > 0) {
-                minTillNow = 0;
-            }
         }
 
         return minSum;
