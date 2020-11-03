@@ -31,7 +31,7 @@ public class MissingSmallestPositiveNumberInArray {
     static int missingNumber(int arr[], int size) {
 
         // replace the positive numbers less than or equal to n, with number-1 index
-        // re iterate the array to check missing value
+        // reiterate the array to check missing value
         int i = 0;
         while (i < arr.length) {
             if (arr[i] > 0 &&
