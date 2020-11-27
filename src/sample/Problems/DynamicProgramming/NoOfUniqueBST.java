@@ -1,7 +1,5 @@
 package sample.Problems.DynamicProgramming;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 public class NoOfUniqueBST {
