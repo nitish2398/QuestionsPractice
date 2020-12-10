@@ -10,4 +10,6 @@ class Node
         data = d;
         left = right = null;
     }
+
+    public Node() {}
 }
