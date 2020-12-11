@@ -2,7 +2,6 @@ package sample.Problems.Graph;
 
 import java.util.*;
 import java.lang.*;
-import java.io.*;
 
 /**
  * Snake and Ladder Problem
@@ -31,11 +30,11 @@ import java.io.*;
  *
  */
 
-class Pair {
+class Pair1 {
     int x;
     int distance;
 
-    Pair(int x, int distance) {
+    Pair1(int x, int distance) {
         this.x = x;
         this.distance = distance;
     }
@@ -56,15 +55,15 @@ class GFG {
 
             initSnakeAndLadders(arr, ladders, snakes);
 
-            Queue<Pair> queue = new LinkedList<>();
+            Queue<Pair1> queue = new LinkedList<>();
             boolean[] visited = new boolean[31];
 
-            queue.add(new Pair(1, 0));
+            queue.add(new Pair1(1, 0));
             visited[1] = true;
 
             int result = Integer.MAX_VALUE;
             while (!queue.isEmpty()) {
-                Pair current = queue.poll();
+                Pair1 current = queue.poll();
 
                 if (current.x == 30) {
                     result = Math.min(result, current.distance);
@@ -79,11 +78,11 @@ class GFG {
                             for (int dest : ladders.get(current.x + i)) {
                                 if (!visited[dest]) {
                                     visited[dest] = true;
-                                    queue.add(new Pair(dest, current.distance + 1));
+                                    queue.add(new Pair1(dest, current.distance + 1));
                                 }
                             }
                         } else {
-                            queue.add(new Pair(current.x + i, current.distance + 1));
+                            queue.add(new Pair1(current.x + i, current.distance + 1));
                         }
                     }
                 }
