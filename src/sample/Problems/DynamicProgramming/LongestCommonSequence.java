@@ -25,7 +25,7 @@ Explanation: LCS of "ABC" and "AC" is
 https://practice.geeksforgeeks.org/problems/longest-common-subsequence-1587115620/1#
  */
 public class LongestCommonSequence {
-    private static int lcs(String s1, String s2) {
+    static int lcs(String s1, String s2) {
         int[][] dp = new int[s1.length() + 1][s2.length() + 1];
 
         for (int i = 0; i < s1.length() + 1; i++) {

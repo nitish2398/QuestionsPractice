@@ -37,7 +37,7 @@ public class MinimumSumPartition {
                         dp[i][j] = dp[i - 1][j];
 
                         if (j - arr[i - 1] >= 0) {
-                            dp[i][j] = dp[i][j] || dp[i-1][j - arr[i - 1]];
+                            dp[i][j] = dp[i][j] || dp[i - 1][j - arr[i - 1]];
                         }
                     }
                 }
