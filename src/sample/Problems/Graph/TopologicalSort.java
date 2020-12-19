@@ -94,7 +94,6 @@ class Graph {
                 topologicalSortUtil(vertex);
             }
         });
-
     }
 
     private void topologicalSortUtil(Character vertex) {

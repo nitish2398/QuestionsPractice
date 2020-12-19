@@ -1,0 +1,182 @@
+{
+  "createDateTime": "2020-12-15T17:56:15.105 GMT",
+  "createdBy": "lithompson",
+  "lastUpdateDateTime": "2020-12-16T11:34:27.106 GMT",
+  "lastUpdatedBy": "tguilliams",
+  "id": "5fd8f8bfc9e77c0001956ee9",
+  "caseType": "BookingFraud",
+  "caseReferenceId": "8531260689533859486",
+  "documentMajorVersion": 1,
+  "documentMinorVersion": 0,
+  "version": 11,
+  "state": {
+    "name": "InProgress",
+    "group": "InProgress",
+    "eventGuid": "19f9e404-e088-4b5a-85c1-e6db62cccd0c",
+    "stateChangeDateTime": "2020-12-16T11:34:27.106 GMT",
+    "stateChangedBy": "tguilliams"
+  },
+  "assignedToUser": "tguilliams",
+  "dueDate": "2020-12-15T18:41:15.105 GMT",
+  "comments": [
+    {
+      "createDateTime": "2020-12-15T18:01:50.553 GMT",
+      "createdBy": "lithompson",
+      "lastUpdateDateTime": "2020-12-15T18:01:50.553 GMT",
+      "lastUpdatedBy": "lithompson",
+      "commentId": "5fd8fa0ed601800001c630ed",
+      "text": "this is an incomplete - not active in voy and the time is passed \n\n3 attempts with a dif card same postal \n\nonenonlyjulz@gmail.com\nView email details\nREGISTERED NAME\nRegistered name not available\nONLINE PRESENCE\nFirst seen 2020-Sep-05\n\nno linked fraud \n\n\n",
+      "caseEventGuid": "9a668e25-9825-443e-9675-b46edd060cba"
+    },
+    {
+      "createDateTime": "2020-12-15T18:02:11.475 GMT",
+      "createdBy": "lithompson",
+      "lastUpdateDateTime": "2020-12-15T18:02:11.475 GMT",
+      "lastUpdatedBy": "lithompson",
+      "commentId": "5fd8fa23d601800001c63114",
+      "text": "pass",
+      "caseEventGuid": "85b35c18-ae0a-4566-80db-48b2de512678"
+    }
+  ],
+  "caseHistory": [
+    {
+      "createDateTime": "2020-12-15T17:56:15.104 GMT",
+      "createdBy": "lithompson",
+      "changeId": "5fd8f8bfc9e77c0001956edd",
+      "state": {
+        "name": "Discovered",
+        "group": "Open",
+        "eventGuid": "22133c97-c914-4719-8880-95b5d602193f"
+      },
+      "status": "ACTIVE",
+      "version": 0,
+      "caseEventGuid": "9a668e25-9825-443e-9675-b46edd060cba"
+    },
+    {
+      "createDateTime": "2020-12-15T17:56:16.679 GMT",
+      "createdBy": "lithompson",
+      "changeId": "5fd8f8c0c9e77c0001956f63",
+      "assignedToUser": "lithompson",
+      "state": {
+        "name": "InProgress",
+        "group": "InProgress",
+        "eventGuid": "22133c97-c914-4719-8880-95b5d602193f"
+      },
+      "status": "ACTIVE",
+      "version": 1,
+      "caseEventGuid": "9a668e25-9825-443e-9675-b46edd060cba"
+    },
+    {
+      "createDateTime": "2020-12-15T18:01:55.584 GMT",
+      "createdBy": "lithompson",
+      "changeId": "5fd8fa13c9e77c0001634c9f",
+      "assignedToUser": "lithompson",
+      "state": {
+        "name": "Decisioned",
+        "group": "Complete",
+        "eventGuid": "06d6502e-f4fd-4b6d-bd88-bc279120c22e"
+      },
+      "version": 3,
+      "caseEventGuid": "9a668e25-9825-443e-9675-b46edd060cba"
+    },
+    {
+      "createDateTime": "2020-12-15T18:02:04.532 GMT",
+      "createdBy": "lithompson",
+      "changeId": "5fd8fa1cc9e77c0001634cdd",
+      "assignedToUser": "lithompson",
+      "state": {
+        "name": "InProgress",
+        "group": "InProgress",
+        "eventGuid": "8d23598b-c296-4f25-9cd5-e2fa9c437818"
+      },
+      "status": "ACTIVE",
+      "version": 4,
+      "caseEventGuid": "85b35c18-ae0a-4566-80db-48b2de512678"
+    },
+    {
+      "createDateTime": "2020-12-15T19:03:41.466 GMT",
+      "createdBy": "CLM-Job",
+      "changeId": "5fd9088d4cedfd000150ce9a",
+      "assignedToUser": "lithompson",
+      "state": {
+        "name": "Abandoned",
+        "group": "Complete",
+        "eventGuid": "373c1965-62e8-43d2-be3d-0af6485ec5c4"
+      },
+      "version": 6,
+      "caseEventGuid": "85b35c18-ae0a-4566-80db-48b2de512678"
+    },
+    {
+      "createDateTime": "2020-12-15T19:07:27.275 GMT",
+      "createdBy": "lithompson",
+      "changeId": "5fd9096fc9e77c000163d59c",
+      "assignedToUser": "lithompson",
+      "state": {
+        "name": "InProgress",
+        "group": "InProgress",
+        "eventGuid": "13bbc5b0-d5dc-4ba8-ac1c-8197e7652dfd"
+      },
+      "status": "ACTIVE",
+      "version": 7,
+      "caseEventGuid": "07bab12b-15a5-4007-92f2-66af1e4d8cdc"
+    },
+    {
+      "createDateTime": "2020-12-15T20:08:34.938 GMT",
+      "createdBy": "CLM-Job",
+      "changeId": "5fd917c2c9e77c00016461be",
+      "assignedToUser": "lithompson",
+      "state": {
+        "name": "Abandoned",
+        "group": "Complete",
+        "eventGuid": "35feed0d-e89c-439b-be45-90893930fcf0"
+      },
+      "version": 8,
+      "caseEventGuid": "07bab12b-15a5-4007-92f2-66af1e4d8cdc"
+    },
+    {
+      "createDateTime": "2020-12-15T22:13:23.937 GMT",
+      "createdBy": "acashler",
+      "changeId": "5fd93503c9e77c000165c157",
+      "assignedToUser": "acashler",
+      "state": {
+        "name": "InProgress",
+        "group": "InProgress",
+        "eventGuid": "c7fe8b9e-2745-4705-bd42-2a77c217f760"
+      },
+      "status": "ACTIVE",
+      "version": 9,
+      "caseEventGuid": "369fa354-7218-44af-b13a-82a978824ca8"
+    },
+    {
+      "createDateTime": "2020-12-15T23:16:02.473 GMT",
+      "createdBy": "CLM-Job",
+      "changeId": "5fd943b24cedfd000153b54a",
+      "assignedToUser": "lithompson",
+      "state": {
+        "name": "Abandoned",
+        "group": "Complete",
+        "eventGuid": "37037d62-4b78-4a0e-ad78-ef83467d74b1"
+      },
+      "version": 10,
+      "caseEventGuid": "369fa354-7218-44af-b13a-82a978824ca8"
+    },
+    {
+      "createDateTime": "2020-12-16T11:34:27.106 GMT",
+      "createdBy": "tguilliams",
+      "changeId": "5fd9f0c3c9e77c0001a43e7c",
+      "assignedToUser": "tguilliams",
+      "state": {
+        "name": "InProgress",
+        "group": "InProgress",
+        "eventGuid": "19f9e404-e088-4b5a-85c1-e6db62cccd0c"
+      },
+      "status": "ACTIVE",
+      "version": 11,
+      "caseEventGuid": "ea71b6fc-aa8a-4378-a728-08fc242c8bf8"
+    }
+  ],
+  "status": "ACTIVE",
+  "eventGuid": "19f9e404-e088-4b5a-85c1-e6db62cccd0c",
+  "caseEventGuid": "ea71b6fc-aa8a-4378-a728-08fc242c8bf8",
+  "lastChangeId": "5fd9f0c3c9e77c0001a43e7c"
+}

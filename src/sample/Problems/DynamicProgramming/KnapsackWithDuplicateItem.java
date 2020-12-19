@@ -38,7 +38,7 @@ class Solution1{
                         dp[i][j] = dp[i][j - 1];
                     } else {
                         dp[i][j] = Math.max(val[j - 1] + dp[i - wt[j - 1]][j],
-                                Math.max(val[j - 1] + dp[i - wt[j - 1]][j], dp[i][j - 1]));
+                                Math.max(val[j - 1] + dp[i - wt[j - 1]][j-1], dp[i][j - 1]));
                     }
                 }
             }
