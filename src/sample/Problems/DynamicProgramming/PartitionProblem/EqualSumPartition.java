@@ -14,6 +14,8 @@ Output: false
 The array cannot be partitioned into equal sum sets.
 */
 
+import sample.CustomException.MyException;
+
 public class EqualSumPartition {
     private static int equalPartition(int n, int[] arr) {
         int sum = 0;
@@ -55,5 +57,12 @@ public class EqualSumPartition {
         int[] arr = {1, 5, 10, 5};
 
         System.out.println(equalPartition(arr.length, arr));
+
+        try {
+            MyException exception = new MyException("jgd");
+            exception = null;
+            System.gc();
+        } catch (Throwable e) {
+        }
     }
 }
