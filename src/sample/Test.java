@@ -1,66 +1,69 @@
 package sample;
 
+// put - params (value double, long timeStamp) -
+// get - Statistics (sum, average) - 1 minute
 
-import java.util.LinkedList;
-import java.util.Queue;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+class Pair {
+    double price;
+    double count;
+}
 
 public class Test {
+
+    private static Map<Long, Map<Long, Double>> bookings = new HashMap<>(); // maxSize = 60
+
+    private final int DELIMITER = 60;
     public static void main(String[] args) {
-        int[] arr = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1};
-
-        int root = 0;
-        int left;
-        int right;
-
-        Queue<Integer> queue = new LinkedList<>();
-        while (true) {
-            try {
-                int element = arr[root];
-                if (element == 1) {
-                    System.out.println("index of first one = " + root);
-                    break;
-                } else {
-                    left = 2 * root + 1;
-                    right = 2 * root + 2;
-
-                    queue.offer(left);
-                    queue.offer(right);
-                    if (arr[left] == 1) {
-                        int index = binarySearch(arr, root, left);
-                        System.out.println("index of first one = " + index);
-                        break;
-                    } else if (arr[right] == 1) {
-                        if (arr[left] == 0) {
-                            System.out.println("index of first one = " + right);
-                            break;
-                        }
-                    } else {
-                        root = !queue.isEmpty() ? queue.poll() : -1;
-                    }
-                }
-            } catch (Exception e) {
-                System.out.println("Array out of bound, result does not exist");
-                break;
-            }
-        }
+        System.currentTimeMillis();
     }
 
 
-    private static int binarySearch(int[] arr, int low, int high) {
-        if (low > high) {
-            return -1;
+    public static boolean put(double price, long timeStamp) {
+        long second = timeStamp/1000;
+        long currentTimeInSecond = System.currentTimeMillis()/1000;
+
+        long index =  currentTimeInSecond-second;
+
+
+        if(!bookings.containsKey(second)) {
+            bookings.put(index, new HashMap<>());
         }
 
-        if (low == high) {
-            return low;
-        }
+        bookings.get(second).put(timeStamp, price);
 
-        int mid = (low + high) / 2;
+        return true;
+    }
 
-        if (arr[mid] == 0) {
-            return binarySearch(arr, mid + 1, high);
-        }
+    public static BookingStat get() {
+        Long dateTimeNowInsec = System.currentTimeMillis();
 
-        return binarySearch(arr, low, mid - 1);
+        return new BookingStat();
+    }
+}
+
+class BookingStat {
+    int sum;
+    int avg;
+
+    public int getSum() {
+        return sum;
+    }
+
+    public void setSum(int sum) {
+        this.sum = sum;
+    }
+
+    public int getAvg() {
+        return avg;
+    }
+
+    public void setAvg(int avg) {
+        this.avg = avg;
     }
 }

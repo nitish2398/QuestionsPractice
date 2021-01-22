@@ -17,12 +17,10 @@ public class EggDropPuzzle {
         int dp[][] = new int[n + 1][k + 1];
 
         for (int i = 0; i <= n; i++) {
-            dp[i][0] = 0;
             dp[i][1] = 1;
         }
 
         for (int j = 0; j <= k; j++) {
-            dp[0][j] = 0;
             dp[1][j] = j;
         }
 
