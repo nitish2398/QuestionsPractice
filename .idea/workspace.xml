@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gitignore.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample/TestV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/CoinChangeProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Counter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Problems/Graph/GFG.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Problems/Graph/GFG.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/TestClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/TestClass$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/TestClass$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/TestClass$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Problems/DynamicProgramming/PartitionProblem/EqualSumPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Problems/DynamicProgramming/PartitionProblem/EqualSumPartition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Problems/Tree/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Problems/Tree/AVLTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Problems/Tree/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuestionsPractice/sample/Problems/Tree/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/PartitionProblem/EqualSumPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/PartitionProblem/EqualSumPartition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Problems/Tree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Problems/Tree/AVLTree.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,81 +69,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/TestV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gitignore.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/TestClass.java">
+        <entry file="file://$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/CoinChangeProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Screenshots/Screen Shot 2020-09-26 at 1.04.43 PM.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Screenshots/Screen Shot 2020-09-26 at 3.08.20 PM.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Screenshots/Screen Shot 2020-09-27 at 8.16.10 PM.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Screenshots/Screen Shot 2020-09-29 at 12.38.41 AM.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/CustomException/MyException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Problems/Arrays/KthLargestElementInStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="795">
+              <caret line="68" column="70" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -167,6 +108,8 @@
       <find>getMe</find>
       <find>,</find>
       <find>\n</find>
+      <find>topolo</find>
+      <find>coin</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -184,11 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/LongestPathInMatrix.java" />
-        <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/OptimalStrategyOfGame.java" />
-        <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/ShortestCommonSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/LongestCommonSequence.java" />
-        <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/ShortestCommonSequence.java" />
         <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/MatrixChainMultipication.java" />
         <option value="$PROJECT_DIR$/src/sample/Problems/Hard.java" />
         <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/MatrixChainMultiplication.java" />
@@ -197,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/sample/Problems/Backtracking/SuDoKuSolver.java" />
         <option value="$PROJECT_DIR$/src/sample/Problems/Graph/SnakeAndLadder.java" />
         <option value="$PROJECT_DIR$/src/sample/CustomException/MyException.java" />
-        <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/PartitionProblem/EqualSumPartition.java" />
         <option value="$PROJECT_DIR$/src/sample/jsonParsing/Model.java" />
         <option value="$PROJECT_DIR$/src/sample/jsonParsing/input.json" />
         <option value="$PROJECT_DIR$/src/sample/jsonParsing/LoadJson.java" />
@@ -233,15 +170,22 @@
         <option value="$PROJECT_DIR$/src/sample/Problems/Arrays/MaximumSumRectangleInGrid.java" />
         <option value="$PROJECT_DIR$/src/sample/Problems/Arrays/MaxOverlappingInterval.java" />
         <option value="$PROJECT_DIR$/src/sample/Problems/Graph/MinimumSpanningUsingDisjointSet.java" />
-        <option value="$PROJECT_DIR$/src/sample/TestV2.java" />
         <option value="$PROJECT_DIR$/gitignore.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/sample/Problems/Tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/sample/Problems/Tree/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/PartitionProblem/EqualSumPartition.java" />
+        <option value="$PROJECT_DIR$/src/sample/Problems/Tree/NodesAtGivenDistanceInBinaryTreeHard.java" />
+        <option value="$PROJECT_DIR$/src/sample/TestV2.java" />
+        <option value="$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/CoinChangeProblem.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
@@ -252,7 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,11 +214,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="QuestionsPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionsPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionsPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionsPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="DynamicProgramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuestionsPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QuestionsPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestV2">
+  <component name="RunManager" selected="Application.CoinChangeProblem">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -326,8 +293,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxStackingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.Problems.DynamicProgramming.BoxStackingProblem" />
+    <configuration name="CoinChangeProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Problems.DynamicProgramming.CoinChangeProblem" />
       <module name="QuestionsPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -340,13 +307,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.Problems.DynamicProgramming.GFG" />
+    <configuration name="EqualSumPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Problems.DynamicProgramming.PartitionProblem.EqualSumPartition" />
       <module name="QuestionsPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.Problems.DynamicProgramming.*" />
+          <option name="PATTERN" value="sample.Problems.DynamicProgramming.PartitionProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,19 +418,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.GFG" />
-      <item itemvalue="Application.BoxStackingProblem" />
-      <item itemvalue="Application.TestClass" />
+      <item itemvalue="Application.EqualSumPartition" />
       <item itemvalue="Application.KthLargestElementInStream" />
+      <item itemvalue="Application.TestClass" />
       <item itemvalue="Application.TestV2" />
+      <item itemvalue="Application.CoinChangeProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinChangeProblem" />
+        <item itemvalue="Application.EqualSumPartition" />
         <item itemvalue="Application.TestV2" />
         <item itemvalue="Application.KthLargestElementInStream" />
         <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.BoxStackingProblem" />
-        <item itemvalue="Application.GFG" />
       </list>
     </recent_temporary>
   </component>
@@ -488,7 +455,7 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18376069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18742369" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,7 +464,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36956522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -509,7 +476,7 @@
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32959184" />
-      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.36938775" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.36938775" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -568,52 +535,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/PriorityQueue/TopkNumbersInAStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4350">
-          <caret line="320" column="19" selection-start-line="320" selection-start-column="19" selection-end-line="320" selection-end-column="19" />
-          <folding>
-            <element signature="e#12158#12159#0" expanded="true" />
-            <element signature="e#12189#12190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/StringAlgo/StringMatchingKMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Arrays/MedianOfSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -650,17 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="e#3800#3801#0" expanded="true" />
-            <element signature="e#3867#3868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/HeightOfSpiralTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-158" />
@@ -690,33 +600,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Problems/LL/ReverseInGroupOfK.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/PairInBinarySearchTreeWithGivenSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Stack/MaxRectangeArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Stack/LargestAreaUnderHistogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Problems/Stack/StockSpanProblem.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -768,20 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/LeavesToDLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Problems/LL/SwapKthNodeFromStartAndEnd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -821,16 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Graph/TopologicalSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="16" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -909,6 +768,33 @@
     <entry file="file://$PROJECT_DIR$/Screenshots/Screen Shot 2020-09-25 at 12.26.55 AM.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="77" column="9" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Screenshots/Screen Shot 2020-09-26 at 1.04.43 PM.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -935,20 +821,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/TestClass.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        <state relative-caret-position="6099">
+          <caret line="991" column="23" selection-start-line="991" selection-start-column="23" selection-end-line="991" selection-end-column="23" />
+          <folding>
+            <element signature="e#40917#40918#0" expanded="true" />
+            <element signature="e#40958#40959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/LeavesToDLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Stack/LargestAreaUnderHistogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Stack/MaxRectangeArea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        <state relative-caret-position="465">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/NodesAtGivenDistanceInBinaryTreeHard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/PairInBinarySearchTreeWithGivenSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/PartitionProblem/EqualSumPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/PartitionProblem/MinimumSumPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/Graph/TopologicalSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -957,17 +931,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/TestV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/sample/Problems/DynamicProgramming/CoinChangeProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="68" column="70" selection-start-line="68" selection-start-column="70" selection-end-line="68" selection-end-column="70" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -54,15 +54,8 @@ public class EqualSumPartition {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 5, 10, 5};
+        int[] arr = {1, 5, 11, 5};
 
         System.out.println(equalPartition(arr.length, arr));
-
-        try {
-            MyException exception = new MyException("jgd");
-            exception = null;
-            System.gc();
-        } catch (Throwable e) {
-        }
     }
 }

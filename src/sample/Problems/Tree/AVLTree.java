@@ -116,6 +116,7 @@ class AVLTree {
         node.left = temp;
         result.right = node;
 
+        // sequence specific
         initHeight(node);
         initHeight(result);
 
@@ -129,6 +130,7 @@ class AVLTree {
         node.right = temp;
         result.left = node;
 
+        // sequence specific
         initHeight(node);
         initHeight(result);
 
