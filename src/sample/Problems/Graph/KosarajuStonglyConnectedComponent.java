@@ -1,6 +1,7 @@
 package sample.Problems.Graph;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -23,7 +24,7 @@ class KosarajuStonglyConnectedComponent {
                 doDFS(adj, i, visited);
             }
         }
-
+        System.out.println(stack);
         adj = reverseGraph(adj);
 
         boolean visitedV2[] = new boolean[N];
@@ -48,6 +49,7 @@ class KosarajuStonglyConnectedComponent {
                 }
             });
         }
+        System.out.print(i + " ");
         stack.push(i);
     }
 
@@ -65,6 +67,28 @@ class KosarajuStonglyConnectedComponent {
             }
         }
         return reverseGraph;
+    }
+
+    public static void main(String[] args) {
+        ArrayList<ArrayList<Integer>> list = new ArrayList<ArrayList<Integer>>() {{
+            add(new ArrayList<Integer>() {{
+                add( 2);
+                add(3);
+            }});
+            add(new ArrayList<Integer>() {{
+                add(0);
+            }});
+            add(new ArrayList<Integer>() {{
+                add(1);
+            }});
+            add(new ArrayList<Integer>() {{
+                add(4);
+            }});
+            add(new ArrayList<Integer>() {{
+            }});
+        }};
+        System.out.println(new KosarajuStonglyConnectedComponent()
+                .kosaraju(list, 5));
     }
 }
 

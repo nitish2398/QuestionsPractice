@@ -177,5 +177,6 @@ class GFG
             System.out.println();
             t--;
         }
+        new HashSet<>(Arrays.asList(new String [] {}));
     }
 }
